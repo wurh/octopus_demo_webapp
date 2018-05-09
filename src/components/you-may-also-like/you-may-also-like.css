@@ -1,0 +1,55 @@
+.you-may-also-like-box {
+    width: 100%;
+    margin-top: 16px;
+}
+.you-may-also-like-box-title {
+    height: 17px;
+    line-height: 17px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    padding-left: 12px;
+    font-weight: bold;
+}
+.you-may-also-like-box ul{
+    font-size: 0;
+    -webkit-overflow-scrolling: touch;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.you-may-also-like-box li {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-top: 12px;
+}
+.you-may-also-like-box li:nth-child(2n) {
+    padding-left: 6px;
+}
+.you-may-also-like-box li:nth-child(2n+1) {
+    padding-right: 6px;
+}
+.you-may-also-like-box li:nth-child(-n+2) {
+    margin-top: 0;
+}
+.you-may-also-like-link {
+    display: block;
+}
+.you-may-also-like-link img {
+    width: 100%;
+}
+.you-may-also-like-link p{
+    height: 20px;
+    font-size: 16px;
+    color: #333;
+    line-height: 20px;
+    margin: 8px 0;
+    text-align: left;
+}
+.you-may-also-like-link p span {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}

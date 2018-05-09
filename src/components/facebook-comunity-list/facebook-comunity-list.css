@@ -1,0 +1,45 @@
+.facebook-comunity-list li{
+	display: block;
+	border-bottom: 1px solid #e4e4e4;
+	padding-bottom: 10px;
+}
+.facebook-comunity-list-top {
+	display: -webkit-box;
+	/* display: box; */
+	height: 24px;
+	margin-top: 10px;
+	line-height: 24px;
+}
+.facebook-comunity-list-top img {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.facebook-comunity-username {
+	display: block;
+	-webkit-box-flex: 1;
+	margin-left: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	text-align: left;
+}
+.facebook-comunity-time {
+	display: block;
+	font-size: 12px;
+	color: #999;
+	padding-right: 12px;
+}
+.facebook-comunity-list-mid {
+	font-size: 12px;
+	color: #666;
+	margin-top: 8px;
+	text-align: left;
+}
+.facebook-comunity-list-bottom {
+	font-size: 12px;
+	color: #999;
+	margin-top: 6px;
+	text-align: left;
+}

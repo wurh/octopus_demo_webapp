@@ -1,0 +1,28 @@
+.select-box {
+    position: relative;
+    display: block;
+    height: 3.86rem;
+    font-size: 16px;
+    min-height: 48px;
+    margin-bottom: 8px;
+    margin-left: .86rem;
+}
+
+.select-box p {
+    height: 100%;
+    line-height: 4rem;
+    text-align: left;
+}
+
+.select-box-con {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.select-box .on {
+    color: #333;
+}

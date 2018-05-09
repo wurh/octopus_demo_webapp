@@ -1,0 +1,54 @@
+.personal-info-wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
+.store-account-avator{
+    margin-top: .71rem;
+    height: 6.86rem;
+    background-color: #fff;
+    padding-left: 6rem;
+    position: relative;
+}
+
+.store-account-avator-title{
+    height: 6.86rem;
+    line-height: 6.86rem;
+    position: absolute;
+    left: 1.14rem;
+    top:0;
+    font-size: 1.14rem;
+    color: #333;
+}
+
+.store-account-avator-icon{
+    position: absolute;
+    right: 2.71rem;
+    top: 1.14rem;
+    width: 4.57rem;
+    height: 4.57rem;
+    border-radius: 50%;
+}
+
+.store-account-avator-icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.store-account-right {
+    right: 12px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.store-account-right {
+    max-height: 6.86rem;
+}
+.mu-item-left, .mu-item-right{
+    right: 0;
+}

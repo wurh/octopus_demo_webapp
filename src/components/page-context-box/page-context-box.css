@@ -1,0 +1,76 @@
+.page-context-box-title, .page-context-box-footer {
+	display: -webkit-box;
+	/* display: box; */
+	height: 45px;
+	margin-left: 10px;
+	border-bottom: 1px solid #E4E4E4;
+}
+.page-context-box-title p {
+	-webkit-box-flex: 1;
+	line-height: 45px;
+	text-align: left;
+	color: #333;
+	font-size: 14px;
+}
+.page-context-box-title-right {
+	display: -webkit-box;
+	/* display: box; */
+	-webkit-box-align: center;
+	color: #999;
+	line-height: 45px;
+}
+.page-context-box-title-right span {
+	display: block;
+	font-size: 14px;
+}
+.page-context-box-title-icon{
+	display: block;
+	/* margin-top: 10px; */
+	/* font-size: 25px; */
+	color: #c4c4c4;
+	width:1.2rem;
+    height:1.2rem;
+}
+.page-context-box-footer {
+	color: #333;
+	border-bottom: none;
+}
+.page-context-box-footer a {
+	position: relative;
+	display: -webkit-box;
+	/* display: box; */
+	height: 100%;
+	-webkit-box-align: center;
+	box-align: center;
+	line-height: 45px;
+	margin: 0 auto;
+	left: -10px;
+	color: #333;
+}
+.page-context-box-footer span {
+	display: block;
+}
+.page-context-box-footer .page-context-box-title-icon {
+	font-weight: normal;
+	color: #999;
+}
+.page-context-box-title-icon-two {
+	margin-left: -20px;
+}
+.footer-boder-top-line {
+	border-top: 1px solid #E4E4E4;
+}
+
+
+/* 图标 */
+.page-context-close{
+	margin-left:5px;
+    background-image:url(/static/img/icons/black@2x.png);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.page-context-arrow-right{
+    background-image:url(/static/img/icons/Indicato@2x.png);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}

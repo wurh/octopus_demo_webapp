@@ -1,0 +1,40 @@
+.store-wrap {
+    background: #F2F2F2;
+}
+.store-manage-list {
+    padding-bottom: 3.19rem;
+}
+
+.store-manage-list .store-choose-items-wrap {
+    margin: 0 1rem;
+}
+
+.store-manage-list .store-choose-item {
+    background: white;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.btn-store-info {
+    display: block;
+    width: 5rem;
+    height: 1.63rem;
+    margin: .81rem auto 0;
+    border: 1px solid #999999;
+    border-radius: 6.25rem;
+    color: #666;
+    font-size: .75rem;
+    line-height: 1.63rem;
+}
+
+.store-manage-list-title {
+    padding: 1rem 0 0 1rem;
+    text-align: left;
+    font-size: 1.06rem;
+    font-weight: bold;
+}
+
+.store-manage-list-title span{
+    color: #CD0E00;
+    padding-left: .5rem
+}

@@ -1,0 +1,219 @@
+
+html{
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  background-color: #fff ;
+  font-family: "Helvetica Neue";
+}
+
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  margin: 0;
+  height: 56px;
+  padding: 0 16px 0 24px;
+  background-color: #35495E;
+  color: #ffffff;
+}
+
+header span {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: .02em;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding-top: 16px;
+}
+
+
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, button,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  -webkit-tap-highlight-color: transparent; }
+
+html {
+  font-family: "helvetica", "Myriad", "Frutiger"; }
+
+article, header, nav, section, aside, details,
+footer, figure, figcaption, hgroup, time,
+mark, video, audio, canvas, blockquote, menu {
+  display: block; }
+
+a {
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1); }
+
+a, button, input {
+  outline: none; }
+
+input {
+  border-radius: 0;
+  -webkit-appearance: none; }
+
+button, input, optgroup, select, textarea {
+  font: inherit;
+  margin: 0;
+  border: 0;
+  padding: 0; }
+
+img {
+  display: inline-block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+ul, ol, menu {
+  list-style: none; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers
+ *
+ */
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+/**
+ * 去掉滚动条
+ */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0; }
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; }
+
+::-webkit-scrollbar-track {
+  background-color: transparent; }
+
+.clearfix {
+  clear: both; }
+
+.clearfix:before {
+  display: table;
+  height: 0px;
+  width: 1px; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.w38p {
+  width: 38%; }
+
+.w30p {
+  width: 30%; }
+
+.w32p {
+  width: 32%; }
+
+.hide {
+  display: none; }
+
+.v-mid {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.v-mid-after:after {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.cut-off {
+  height: .5rem;
+  background: #f0f0f0;
+  width: 100%; }
+
+.no-scroll {
+  overflow: hidden; }
+.no-scroll body {
+  overflow: hidden; }
+
+.cut-circle, .btn-toTop {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
+#app .mu-back-up-default{
+  background-color: #CD0E00 ;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+.clearfix:after{
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden
+}
+
+#app .mu-raised-button {
+  box-shadow: none;
+}

@@ -1,0 +1,85 @@
+.storechoose-wrap {
+    background: white;
+}
+.swiper-nav-wrap{
+    position: relative;
+    height: 2.85rem;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    z-index: 100;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.swiper-nav{
+    text-align: center;
+    height: 100%;
+    min-width: 100%;
+    bottom: 0;
+}
+.swiper-box{
+    height: 100%;
+    width: 100%;
+}
+.swiper-nav li.swiper-pagination-custom{
+    display: inline-block;
+    line-height: 2.65rem;
+    font-size: 1rem;
+    color: #666;
+    width: auto;
+    transition: all .5s ease;
+    border-bottom: .21rem rgba(205, 14, 0, 0) solid;
+}
+.swiper-nav li.swiper-pagination-custom-other{
+    margin: 0;
+}
+.swiper-nav li.swiper-pagination-custom span {
+    height: 100%;
+    margin: 0 1.15rem;
+}
+.swiper-nav li.swiper-pagination-custom.active{
+    color: #CD0E00;
+    font-weight: bold;
+}
+.swiper-nav li.swiper-pagination-custom.active span {
+    padding: 0.8rem 0;
+    border-bottom: .21rem #CD0E00 solid;
+}
+.swiper-cover {
+    -webkit-overflow-scrolling: touch;
+}
+
+/* 没有订单列表 */
+.order-empty{
+	margin-top: 6rem;
+	width: 100%;
+}
+.order-empty .order-pic{
+	margin: 0 auto;
+	width: 8.57rem;
+	height: 7.14rem;
+	background:url(/static/img/icons/index-error@2x.png);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+.order-empty .order-msg-box{
+	width: 100%;
+	margin-top: 1rem;
+	text-align: center;
+	font-family: HelveticaNeue;
+}
+.order-msg-box .order-msg{
+	display: block;
+	font-size:1rem;
+	line-height:1.428rem;
+    font-family: HelveticaNeue;
+	color:#666;
+}
+.order-btn{
+    display:inline-block;
+	margin-top:10px;
+}
+
+.store-items-box {
+    height: 100%;
+    overflow: scroll;
+}

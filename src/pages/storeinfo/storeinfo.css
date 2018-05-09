@@ -1,0 +1,15 @@
+.store-info-box {
+    padding: 1.5rem 0 0 1rem;
+    text-align: left;
+    color: #333;
+}
+
+.store-info-title {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.store-info-desc {
+    font-size: .88rem;
+    padding-top: .75rem;
+}

@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "vue-bricks@^1.0.6",
+        "scope": null,
+        "escapedName": "vue-bricks",
+        "name": "vue-bricks",
+        "rawSpec": "^1.0.6",
+        "spec": ">=1.0.6 <2.0.0",
+        "type": "range"
+      },
+      "/Users/Joel/Web/octopus-pwa"
+    ]
+  ],
+  "_cnpm_publish_time": 1495992124340,
+  "_from": "vue-bricks@>=1.0.6 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "vue-bricks@1.0.6",
+  "_inCache": true,
+  "_location": "/vue-bricks",
+  "_nodeVersion": "6.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/vue-bricks-1.0.6.tgz_1495992124197_0.5832114939112216"
+  },
+  "_npmUser": {
+    "name": "kuaizi",
+    "email": "shaojinhong@kuaizi.co"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-bricks@^1.0.6",
+    "scope": null,
+    "escapedName": "vue-bricks",
+    "name": "vue-bricks",
+    "rawSpec": "^1.0.6",
+    "spec": ">=1.0.6 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/vue-bricks/download/vue-bricks-1.0.6.tgz",
+  "_shasum": "fd5df3f01759f139e8ade59be644100ad5978040",
+  "_shrinkwrap": null,
+  "_spec": "vue-bricks@^1.0.6",
+  "_where": "/Users/Joel/Web/octopus-pwa",
+  "author": {
+    "name": "tomieric",
+    "email": "tomieric@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kuaizi-co/vue-bricks/issues"
+  },
+  "dependencies": {
+    "bricks.js": "^1.8.0"
+  },
+  "description": "bricks.js for vue 2.x,the component about waterfall layout",
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "gh-pages": "^1.0.0",
+    "vue": "^2.3.3",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "fd5df3f01759f139e8ade59be644100ad5978040",
+    "size": 25613,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/vue-bricks/download/vue-bricks-1.0.6.tgz"
+  },
+  "files": [
+    "dist/*",
+    "src/components/bricks.vue",
+    "src/lib/scroll-emitter.js",
+    "README.MD"
+  ],
+  "gitHead": "9a1f04c6fb395b43e4d3329d90c728f4ac8588e3",
+  "homepage": "https://github.com/kuaizi-co/vue-bricks#readme",
+  "main": "dist/index.js",
+  "maintainers": [
+    {
+      "name": "kuaizi",
+      "email": "shaojinhong@kuaizi.co"
+    }
+  ],
+  "name": "vue-bricks",
+  "optionalDependencies": {},
+  "publish_time": 1495992124340,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuaizi-co/vue-bricks.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.build.config.js --progress --hide-modules",
+    "deploy": "npm run gh-pages && gh-pages -d vue-bricks",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "gh-pages": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "prepublish": "npm run build"
+  },
+  "version": "1.0.6"
+}

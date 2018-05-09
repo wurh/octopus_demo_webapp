@@ -1,0 +1,5 @@
+.mu-toast{
+    position: fixed;
+    top:50%;
+    margin-top:-24px;
+}

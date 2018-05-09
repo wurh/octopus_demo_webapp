@@ -1,0 +1,50 @@
+.store-wrap {
+    padding: 3.14rem 0 3.14rem;
+}
+
+.account-header-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.cart-items {
+    background-color: #F2F2F2;
+    padding-top: .63rem;
+    margin: 3.14rem 0 6.19rem;
+}
+
+.total-count-fixed {
+    position: fixed;
+    left: 0;
+    bottom: 3.19rem;
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    background: #F6F6F6;
+}
+
+.total-count-info {
+    flex: 1;
+    align-self: center;
+    text-align: right;
+    color: #666;
+    font-size: .75rem;
+}
+
+.total-count-info span {
+    padding: 0 .75rem 0 .25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.mu-raised-button{
+    height: 100%;
+}
+
+.dialog-box {
+    width: auto;
+}

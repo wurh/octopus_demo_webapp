@@ -1,0 +1,35 @@
+.salelist-wrap {
+    background: #F2F2F2;
+    padding-bottom: 3.19rem;
+}
+
+.selfAddr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5rem;
+    font-size: .75rem;
+    color: #999;
+}
+
+.self-addr-desc {
+    padding-left: .25rem;
+}
+
+.icon-map-point {
+    width: .56rem;
+    height: .75rem;
+    background-image: url('/static/img/icons/icon-map-point@2x.png');
+    background-size: 100%;
+}
+
+.store-manage-list-title {
+    padding: 1rem 0 0 1rem;
+    font-size: 1.06rem;
+    text-align: left;
+    font-weight: bold;
+}
+.store-manage-list-title span {
+    padding-left: .5rem;
+    color: #CD0E00;
+} 
